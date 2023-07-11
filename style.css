@@ -14,6 +14,7 @@
  width: 50%;
  margin-left: 100px;
  text-align: left;
+ 
 }
 
 .description{
@@ -27,12 +28,13 @@
 }
 .image{
     margin-top: 30px;
+    margin-right: 40px;
 }
 
 header{
     display: flex;
     background-color: rgb(243, 197, 215);
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     }
 .feature-container{
@@ -47,46 +49,85 @@ header{
 .image-container{
     text-align: center;
     padding: 50px;
-
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
    
 }
+
 .image1{
+    align-items: center;
+}
+
+.flower-para{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+.box1{
     background-color: rgb(243, 197, 215);
     border-radius: 300px 300px 0px 0px;
-    width: 310px;
-    height: 428px;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    bottom: 0px;
 }
 
-.image2{
+.box2{
     background-color: rgb(173, 209, 236);
     border-radius: 300px 300px 0px 0px;
-    width: 370px;
-    height: 478px;
+    width: 350px;
+    height: 450px;
+    /* display: flex;
+    align-items: center; */
 }
 
-.image3{
+.box3{
     background-color: rgb(240, 214, 235);
     border-radius: 300px 300px 0px 0px;
-    width: 314px;
-    height: 471px;
+    width: 350px;
+    height: 450px;
+    /* display: flex;
+    align-items: center; */
 }
+
 .image-container2{
     text-align: center;
     display: flex;
     padding: 50px;
     margin: 0px 300px 0px;
-    background-color: #e096a6;
+    background-color: rgb(243, 197, 215);
     justify-content: space-evenly;
 }
 .discount-container{
     align-items: center;
-
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(243, 197, 215);
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 300px;
+}
+.discount-container-des{
+    text-align: center;
+    margin-bottom: 100px;
 }
 .hot-deal{
     margin-top: 100px;
     padding-top: 100px;
     padding-left: 120px;
     text-align: left;
+}
+.btn2{
+    background: #E55473;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 43px;
+    font-size: 20px;
+    border: none;
+    justify-content: center
 }
 
 .para{
@@ -106,6 +147,7 @@ header{
 .image-container3{
     text-align: center;
     justify-content: space-around;
+
 }
 
 .instagram{
@@ -123,13 +165,17 @@ header{
 
 .latest-img{
     background-image: url(./images/Rectangle\ 9.png);
-    width: 100%;
+    height: 300px;
+    width: 80%;
     align-items: center;
     background-repeat: no-repeat;
     text-align: center;
+    margin-left: 150px;
     
 }
 .flowershop{
+    align-items: center;
+    padding-top: 40px;
     padding: 10px;
     font-size: 48px;
 }
@@ -144,9 +190,6 @@ header{
     color: gray;
     font-size: 16px;
 }
-/* .rose{
-    display: flex;
-} */
 
 .des{
     font-size: 18px;
@@ -155,10 +198,25 @@ header{
 .primary{
     color: #E55473;
 }
+.email{
+    width: 400px;
+    height: 60px;
+    padding: 10px;
+}
 
+.get{
+    padding-top: 20px;
+}
+.coupon{
+    padding-bottom: 20px;
+}
 
-
-
-
-
+.btn3{
+    background: #E55473;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 43px;
+    font-size: 20px;
+    border: none;
+}
 
