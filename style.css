@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.btn{
+    background: #E55473;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 43px;
+    font-size: 20px;
+    border: none;
+}
+.nav-container{
+ width: 50%;
+ margin-left: 100px;
+ text-align: left;
+}
+
+.description{
+    width: 50%;
+    font-size: 50px;
+    margin: 5px;
+    margin-top: 20px;
+}
+.description-content{
+    padding: 10px;
+}
+.image{
+    margin-top: 30px;
+}
+
+header{
+    display: flex;
+    background-color: rgb(243, 197, 215);
+    justify-content: space-around;
+    align-items: center;
+    }
+.feature-container{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.description2{
+    padding: 10px;
+    font-size: 20px;
+}
+.image-container{
+    text-align: center;
+    padding: 50px;
+   
+}
+.image1{
+    background-color: rgb(243, 197, 215);
+    border-radius: 300px 300px 0px 0px;
+    width: 310px;
+    height: 428px;
+}
+
+.image2{
+    background-color: rgb(173, 209, 236);
+    border-radius: 300px 300px 0px 0px;
+    width: 370px;
+    height: 478px;
+}
+
+.image3{
+    background-color: rgb(240, 214, 235);
+    border-radius: 300px 300px 0px 0px;
+    width: 314px;
+    height: 471px;
+}
+.image-container2{
+    text-align: center;
+    display: flex;
+    padding: 50px;
+    margin: 0px 300px 0px;
+    background-color: #e096a6;
+    justify-content: space-evenly;
+}
+.discount-container{
+    align-items: center;
+}
+.hot-deal{
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-left: 120px;
+    text-align: left;
+}
+
+.para{
+    margin-top: ;
+    padding: 10px;
+}
+.image8{
+   position: relative;
+}
+.rose{
+    width: 400px;
+    display: flex;
+}
+.insta-container{
+    text-align: center;
+}
+.image-container3{
+    text-align: center;
+    justify-content: space-around;
+}
+
+.instagram{
+    font-size: 40px;
+}
+.description3{
+    padding: 14px;
+}
+
+.latest-img{
+   align-items: center;
+   padding: 20px;
+   margin-top: 50px;
+}
+
+
+
+
+
+/* .rose{
+    display: flex;
+} */
+
+
+
+
+
+
+
+
+
+
